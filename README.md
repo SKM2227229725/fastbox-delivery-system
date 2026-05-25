@@ -128,14 +128,14 @@ python test_runner.py
 📱 Mobile app integration
 
 
-👨‍💻 Author
+###👨‍💻 Author
 
 Shailesh Kumar
 Computer Science Engineering Student
 Web Development | AI | ML Enthusiast
 
 
-📜 License
+###📜 License
 
 This project is for educational purposes and open-source use.
 

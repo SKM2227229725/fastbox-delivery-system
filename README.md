@@ -54,31 +54,16 @@ delivery_system/
 ## 🔧 Installation & Setup
 
 ### 1. Clone or Download Project
-```bash
 git clone  https://github.com/SKM2227229725/fastbox-delivery-system
 cd fastbox-delivery-system
-2. (Optional) Create Virtual Environment
-python -m venv venv
 
-Activate it:
 
-Windows
 
-venv\Scripts\activate
-
-Mac/Linux
-
-source venv/bin/activate
-3. Run the Project
+###2 .Run the Project
 python main.py
+
 📥 Input Format (JSON)
-
-File location:
-
 data/data.json
-
-Example structure:
-
 {
   "warehouses": {
     "W1": [0, 0],
@@ -96,12 +81,17 @@ Example structure:
     }
   ]
 }
+
 🚀 How It Works
 Load warehouse, agent, and package data
 Find nearest agent for each package (based on warehouse location)
 Compute delivery distance (warehouse → destination)
 Track agent performance metrics
 Generate final report
+
+
+📊 Output Example
+report
 📊 Output Example
 DELIVERY REPORT
 ----------------------------------------
@@ -112,6 +102,8 @@ Agent A3 → 1 packages | Distance: 50.00 | Efficiency: 50.00
 🏆 Best Agent: A1
 
 Report saved as report.json
+
+
 📄 Output JSON
 {
   "A1": {
@@ -121,33 +113,30 @@ Report saved as report.json
   },
   "best_agent": "A1"
 }
-🧠 Design Assumptions
-Euclidean distance is used (straight-line)
-Agents remain static (no movement simulation)
-No delivery capacity limits
-First match is selected in case of tie
-Required JSON keys must be strictly followed
+
 🧪 Testing
 
 Run test cases:
-
 python test_runner.py
+
 📈 Future Enhancements
 🧠 AI-based delivery time prediction
 🗺️ Route optimization using shortest path algorithms
 📡 Real-time GPS tracking simulation
 💬 Admin dashboard with analytics
 📱 Mobile app integration
+
+
 👨‍💻 Author
 
 Shailesh Kumar
 Computer Science Engineering Student
 Web Development | AI | ML Enthusiast
 
+
 📜 License
 
 This project is for educational purposes and open-source use.
-
 
 ---
 
@@ -170,4 +159,7 @@ If you want next upgrade, I can also do:
 🚀 Or :contentReference[oaicite:3]{index=3}
 
 Just tell 👍
+
+
+
 

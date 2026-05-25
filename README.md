@@ -20,27 +20,31 @@ FastBox Delivery System is a Python-based simulation project that models a day o
 delivery_system/
 │
 ├── data/ # Input datasets
-│ ├── base_case.json
+│ ├── base_case.json # Main input file
 │ └── tests/ # Additional test cases (optional)
 │
 ├── src/ # Core application logic
 │ ├── models/ # Data models (optional)
-│ ├── services/
+│ │ ├── agent.py
+│ │ ├── package.py
+│ │ └── warehouse.py
+│ │
+│ ├── services/ # Business logic
 │ │ ├── assignment_service.py
 │ │ ├── delivery_service.py
 │ │ └── report_service.py
-│ └── utils/
+│ │
+│ └── utils/ # Helper functions
 │ ├── distance.py
 │ ├── loader.py
 │ └── validator.py
 │
 ├── tests/ # Unit tests (optional)
 ├── main.py # Entry point
-├── test_runner.py # Runs test cases
-├── requirements.txt
-├── report.json # Generated output
-└── README.md
-
+├── test_runner.py # Runs all test cases
+├── requirements.txt # Dependencies (empty – uses standard library)
+├── report.json # Generated output (created after running)
+└── README.md # This file
 
 ---
 

@@ -146,7 +146,7 @@ B.Tech CSE Student at Rajkiya Engineering College, Sonbhadra
 
 ###📜 License
 
-This project is for educational purposes and open-source use.
+This project is for educational purposes and open-source use.  and the  all right reserved by shailesh
 
 ---
 

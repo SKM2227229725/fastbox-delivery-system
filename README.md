@@ -119,6 +119,8 @@ Report saved as report.json
   "best_agent": "A1"
 }
 
+
+
 🧪 Testing
 
 Run test cases:
@@ -132,12 +134,15 @@ python test_runner.py
 📱 Mobile app integration
 
 
-###👨‍💻 Author
+### 👨‍💻 Author
 
-Shailesh Kumar
-Computer Science Engineering Student
-Web Development | AI | ML Enthusiast
+**Shailesh Kumar**  
+B.Tech CSE Student at Rajkiya Engineering College, Sonbhadra  
 
+- 🌐 Web Developer  
+- 🤖 AI & ML Enthusiast  
+- 📚 DSA Learner  
+- 🚀 Open Source Contributor
 
 ###📜 License
 
